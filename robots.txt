@@ -1,0 +1,22 @@
+User-agent: Titan 
+Disallow: /
+
+User-agent: EmailCollector 
+Disallow: /
+
+User-agent: EmailSiphon 
+Disallow: /
+
+User-agent: EmailWolf 
+Disallow: /
+
+User-agent: ExtractorPro 
+Disallow: /
+
+User-agent: Alexa 
+Disallow: /
+
+User-agent: *
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/

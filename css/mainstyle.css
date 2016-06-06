@@ -1,0 +1,119 @@
+/* AUTHOR: Jonathan Chicquette - XSIVE 1 STUDIOS, LLC */
+
+* {	margin: 0px;	padding: 0px;}body, table, td, tr, h1, h2, h3, h4, h5, h6, ul {	margin: 0;	padding: 0;}
+
+a {
+	color: #000000;
+	text-decoration: underline;
+	outline: none;
+}
+
+a:hover {
+	color: #dddddd;
+	text-decoration: underline;
+}
+
+a:-moz-any-link:focus {
+	outline: none;
+}
+
+a:active {
+	outline: none;
+	border: none;
+}
+
+a:focus {
+	outline: none;
+	border: none;
+}
+
+body {
+	background:url("../images/bg.png") repeat-x scroll 0 top #FFFFFF;	font-family:Arial,Helvetica,sans-serif;	font-size:62.5%;	margin:0;	padding:0;	text-align:center;
+}
+.faux {	background:url("../images/faux-bg.png") no-repeat scroll center top transparent;	float:left;	min-height:320px;	width:100%;}
+.wrap {
+	width: 100%;	float: left;
+}
+.header {	width: 902px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.logo {	float:left;	margin:3px auto 0;	text-align:left;
+}.navic {	border-top: 1px solid #ffca5b;}.nav {	height:37px;	margin:0 auto;	text-align:left;	width:902px;}.nav ul {	float:left;	margin:0;}.nav li {	display:block;	float:left;	font-size:1.8em;	list-style:none outside none;	padding:0;	margin:0;}.nav li a {	color:#49a2c5;	display:block;	line-height:37px;	padding:0 18px 5px;	text-decoration:none;}.nav li a:hover {	text-decoration:none;	color:#303030;}.nav li.here {	background: url("../images/here.gif") no-repeat scroll center bottom transparent;	color:#000000;	line-height:37px;	padding:0 18px 5px;}.address {	float:right;	margin:60px 0 0 16px;	width:278px;}.conic {	margin: 23px 0;}
+.container {	width: 902px;	margin: 0px auto;	text-align: left;
+}.article {	float:left;	padding:0 0 0 16px;	width:550px;	}
+
+.aside {
+	width: 308px;	float: right;
+}.ankle {	width: 902px;	margin: 0px auto;	text-align: left;}.footer {	line-height:40px;	margin:0 auto;	text-align:left;	width:902px;}.footer p {	font-size: 1.2em;	color: #FFFFFF;}
+
+h1 {
+	color: #05537e;	color: rgba(5, 83, 126, 0.8);	font-family:Helvetica;	font-size:2.3em;	font-style:italic;	font-weight:bold;	margin:0.73em 0 0.33em;	text-shadow:0 1px 0 #FFFFFF, 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	color:#404040;	font-size:1.7em;	text-shadow:0 1px 1px #E0E0E0;
+}
+
+h3 {
+	margin: 0.8em 0pt;	color: rgb(103, 193, 228);	font-size: 2em;	text-shadow:0 1px 0 #FFFFFF, 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+p {
+	color:#505050;	font-size:1.36em;	margin:0 0 0.57em;
+}
+
+.address p {
+	color:#05537e;	font-size:1.5em;	margin: 0 0 0.5em;
+}ul {	margin: 0 0 .8em 22px;}li {	color:#539092;	font-size: 1.33em;	padding: 3px 0;}
+
+div.hr hr {
+	display: none;
+}
+
+div.hr {
+	border: none;
+	height: 38px;
+	width: 600px;
+	background: transparent url(../images/hr.gif) scroll no-repeat 0 0;
+}.input {	background-color:#F7FCFD;	border:1px solid #67C1E4;	color:#5d5d5d;	float:left;	font-family:arial;	font-size:1.3em;	font-style:italic;	padding:3px;	width:250px;} .formy {	float:left;	margin:0 0 0 9px;}.formy label {	color:#05537E;	display:block;	float:left;	font-size:1.6em;	margin:7px 0 2px;}.textarea {	background-color:#F7FCFD;	border:1px solid #67C1E4;	color:#5d5d5d;	float:left;	font-family:arial;	font-size:1.3em;	font-style:italic;	padding:3px;	width:250px;} 
+.sendbtn {	display:block;	float:left;	margin:11px 0 0;	}
+a img {
+	border-style: none;
+}
+
+.L {
+	float: left;
+}
+
+.R {
+	float: right;
+}
+
+.video {
+	width: 600px;
+	text-align: center;
+}
+
+.clear {
+	font-size: 1px;
+	line-height: 1px;
+	display: block;
+	margin: 0;
+	height: 0;
+	clear: both;
+	padding: 0;
+}/* @group brand background colors */.db {	background-color: #05537e;}.bb {	background-color: #67c1e4;}.lb {	background-color: #c0edf8;}.sg {	background-color: #539092;}.gb {	background-color: #6c858b;}/* @end *//* @group messages */.error {	-moz-border-radius:3px;	-webkit-border-radius:3px;	-moz-box-shadow:0 2px 4px #C0C0C0;	-webkit-box-shadow:0 2px 4px #C0C0C0;	background-color:#f8e6e6;	border:3px solid #DD0000;	display:block;	font-size:1.6em;	margin:0 0 13px;	padding:10px;	text-align:center;	width:249px;}.error h2 {	color: #DD0000;}.good {	-moz-border-radius:3px;	-webkit-border-radius:3px;	-moz-box-shadow:0 2px 4px #C0C0C0;	-webkit-box-shadow:0 2px 4px #C0C0C0;	background:-moz-linear-gradient(center bottom, rgb(124,255,59) 12%, rgb(177,255,143) 56%, rgb(206,255,163) 81%) #ccff9f;	background:-webkit-gradient( linear, left bottom, left top, color-stop(0.3, rgb(74,216,132)), color-stop(0.65, rgb(104,255,159)), color-stop(0.83, rgb(136,255,191)) ) #ccff9f;	border:3px solid #04B700;	display:block;	font-size:1.6em;	margin:0 0 13px;	padding:10px;	text-align:center;	width:249px;	}.good h2 {	color: #04B700;}/* @end */

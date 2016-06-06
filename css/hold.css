@@ -1,0 +1,144 @@
+/* AUTHOR: Jonathan Chicquette - XSIVE 1 STUDIOS, LLC */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: #000000;
+	text-decoration: underline;
+	outline: none;
+}
+
+a:hover {
+	color: #dddddd;
+	text-decoration: underline;
+}
+
+:-moz-any-link:focus {
+	outline: none;
+}
+
+:active {
+	outline: none;
+	border: none;
+}
+
+:focus {
+	outline: none;
+	border: none;
+}
+
+body {
+	background: url("../images/bg-tmp.gif") repeat scroll 0 top transparent;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap {
+	width: 100%;	float: left;
+}
+#header {
+	margin: 0px auto;
+	text-align: left;
+}
+
+#logo {
+	margin: 0px auto;
+	text-align: left;
+}
+
+#navbar_top {
+	
+}
+
+#container {
+	
+}
+
+#sidebar {
+	
+}
+
+#content {
+	
+}
+
+#footer {
+	
+}
+
+h1 {
+	color: rgba(5, 83, 126, 0.7);
+	font-family: Helvetica;
+	font-size: 6em;
+	font-weight: bold;
+	margin: 2.22em 0 0;
+	text-shadow: 0 1px 0 #FFFFFF, 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+p {
+	
+}
+
+div.hr hr {
+	display: none;
+}
+
+div.hr {
+	border: none;
+	height: 38px;
+	width: 600px;
+	background: transparent url(../images/hr.gif) scroll no-repeat 0 0;
+}
+
+a img {
+	border-style: none;
+}
+
+.L {
+	float: left;
+}
+
+.R {
+	float: right;
+}
+
+.video {
+	width: 600px;
+	text-align: center;
+}
+
+.clear {
+	font-size: 1px;
+	line-height: 1px;
+	display: block;
+	margin: 0;
+	height: 0;
+	clear: both;
+	padding: 0;
+}
